@@ -1,0 +1,27 @@
+Dataset Link: https://drive.google.com/file/d/15abf3p0l4wSIpN2J2CkI6WNwrslwYo0r/view?usp=sharing
+
+1. Download the dataset & extract it into your system.
+2. Inside the extracted folder, find a csv file named "HAM10000_metadata.csv".
+3. Note the "HAM10000_metadata.csv" file path & Set it on the "df=pd.read_csv(<dataset_path>)".
+4. Next update the "base_skin_dir = " to the extracted folder path.
+5. Now you are ready to run the code.
+
+N.B.: The code might take couple of hours to run depending upon your system configuration.
+
+
+Brief description of the dataset:
+1. Number of classes: 07
+2. Class names: Melanocytic nevi , Melanoma, Benign keratosis-like lesions, Basal cell carcinoma, Actinic keratoses, Vascular lesions, Dermatofibroma
+
+
+Breif Description of the code: 
+1. Loading the metadata: Using the OS module we have mapped the corresponding images to the metadata.
+2. Data Pre-Processing - This includes creating features, lables, spliting dataset into training & testing, Normalizing/Standardizing the images, and OneHot encoding the labels.
+3. Building a customized Convolutional Neural Network (CNN)
+4. Making predictions using the built model.
+5. Evaluating the model
+
+
+
+
+
